@@ -1,16 +1,17 @@
-wake_up = float(input("enter time of waking up:"))
-breakfast = float(input("enter time of breakfast:"))
-study = float(input("enter no of hours studied :"))
-lunch = float(input("enter time of lunch :"))
-exercise = float(input("enter no of hours of exercise:"))
-dinner = float(input("enter time of dinner:"))
-total_hours_studied = study + exercise
-# ("pull terminal up while seeing results to see the output clearly")
-print("\nDaily Routine")
-print("\nWake up -", wake_up, "AM")
-print("\nBreakfast -", breakfast, "AM")
-print("\nStudy -", study, "hours")
-print("\nLunch -", lunch, "PM")
-print("\nExercise -", exercise, "hours")
-print("\nDinner -", dinner, "PM")
-print("Total hours studied:", total_hours_studied)
+# Printing the title
+print("My Daily Routine")
+
+# Step 1: Waking up
+print("I wake up at 7 AM.")
+
+# Step 2: Going to school
+print("I go to school at 8 AM.")
+
+# Step 3: Playing after school
+print("I play with my friends in the evening.")
+
+# Step 4: Studying
+print("I study for 2 hours at night.")
+
+# Calculating total study time in a week
+print("Total study hours in a week:", 2 * 7)
